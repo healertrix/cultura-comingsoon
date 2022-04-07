@@ -3088,10 +3088,10 @@ img.u-pull-left {
 .s-intro__content {
     z-index        : 1;
     max-width      : var(--width-wider);
-    align-items    : flex-end;
+    align-items    : flex;
     height         : 100vh;
     min-height     : calc(25.5 * var(--space));
-    padding-top    : 20vh;
+    padding-top    : 50vh;
     padding-bottom : 8.8rem;
     position       : relative;
 }
@@ -3106,6 +3106,7 @@ img.u-pull-left {
 .s-intro__content-title {
     font-size     : var(--text-xxl);
     font-weight   : 400;
+    text-align: center;
     line-height   : var(--vspace-1_5);
     color         : white;
     margin-top    : 0;
