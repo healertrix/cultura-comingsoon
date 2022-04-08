@@ -2777,8 +2777,12 @@ img.u-pull-left {
     position  : absolute;
     top       : 50%;
     left      : var(--gutter);
+    
 }
 
+.logo{
+    margin:100px;
+}
 .s-header__logo a {
     display : block;
     margin  : 0;
